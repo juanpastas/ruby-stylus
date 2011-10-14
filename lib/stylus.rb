@@ -1,5 +1,6 @@
 require 'execjs'
 require 'stylus/version'
+require 'stylus/configuration'
 require 'stylus/tilt' if defined?(::Tilt)
 require 'stylus/railtie' if defined?(::Rails)
 require 'stylus/source'
