@@ -59,8 +59,8 @@ module Stylus
     # `:plugins` collections.
     def to_options
       {
-        :arguments => arguments_hash
-        :imports => self.imports
+        :arguments => arguments_hash,
+        :imports => self.imports,
         :plugins => self.plugins
       }
     end
